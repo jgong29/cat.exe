@@ -1,0 +1,12 @@
+Player1 and player2 play the game.
+Each player needs to deposit STX amount.
+Smart Contract decides the result and rewards the winner with all STX.
+
+
+;; addresses of player1, player2
+(define-constant player1 'player1)
+(define-constant player2 'player2)
+
+
+;; defining variables
+(define-data-var player1 )
